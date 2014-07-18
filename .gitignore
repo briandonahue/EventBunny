@@ -1,0 +1,26 @@
+# Standard VS.NET and ReSharper Foo
+obj
+Obj
+bin
+Bin
+upload
+ClientBin
+*.user
+*.suo
+_ReSharper.*
+*.cache
+* Thumbs.db
+*.log
+*.swp
+
+ # Office Temp Files
+~$*
+Gemfile.lock
+*.pdb
+
+src/packages/*
+!src/packages/repositories.config
+src/.nuget/*
+!src/.nuget/NuGet.targets
+!src/.nuget/packages.config
+
